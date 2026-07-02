@@ -1,41 +1,63 @@
-online-product-demand-forecasting
-Machine Learning project for predicting product demand using Python and Scikit-learn.
-Online Product Demand Forecasting System
+# Online Product Demand Forecasting System
 
-Project Overview
-This project is a Machine Learning-based system that predicts product demand based on historical data. It helps businesses forecast future demand and improve inventory management.
+## Overview
+This project is a Machine Learning-based system designed to forecast product demand using historical sales data. It helps businesses make better inventory and supply chain decisions by predicting future demand trends.
 
----
-
- Technologies Used
-- Python
-- Pandas & NumPy
-- Scikit-learn
-- Machine Learning Algorithms
-- Streamlit 
+The system applies multiple regression algorithms and compares their performance to identify the best model for prediction.
 
 ---
 
- Features
-- Predicts future product demand
-- Data preprocessing and cleaning
-- ML model training and evaluation
-- Simple user interface (if applicable)
+## Objective
+- Predict future product demand using machine learning  
+- Improve inventory and supply chain planning  
+- Reduce overstock and understock situations  
+- Apply ML techniques to real-world business problems  
 
 ---
 
-How It Works
-1. Input historical sales data
-2. Data is processed and cleaned
-3. ML model predicts future demand
-4. Output is displayed to user
+## Tech Stack
+
+- **Programming Language:** Python  
+- **Data Processing:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
+- **Machine Learning:** Scikit-learn, XGBoost  
+- **Development Tools:**  VS Code, Git & GitHub  
 
 ---
 
-How to Run the Project
+## 🤖 Machine Learning Algorithms Used
 
-```bash
+- Linear Regression  
+- Random Forest Regressor  
+- XGBoost Regressor  
+- Histogram-based Gradient Boosting Regressor  
+
+---
+
+##  Workflow
+
+1. Data collection from sales history  
+2. Data cleaning and preprocessing  
+3. Feature engineering  
+4. Model training using multiple algorithms  
+5. Model evaluation and comparison  
+6. Final prediction of product demand  
+
+---
+
+## Key Features
+
+- Predicts future product demand  
+- Compares multiple ML models  
+- Data preprocessing pipeline included  
+- Easy-to-run Python-based project  
+- Suitable for business forecasting use cases  
+
+---
+
+## How to Run
+
+```bash id="run1"
 git clone https://github.com/rohitkumarhothas-hub/online-product-demand-forecasting.git
 cd online-product-demand-forecasting
 pip install -r requirements.txt
-python app.py
