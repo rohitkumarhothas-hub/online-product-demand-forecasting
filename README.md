@@ -15,7 +15,7 @@ The system applies multiple regression algorithms and compares their performance
 
 ---
 
-## Tech Stack
+## Technologies
 
 - **Programming Language:** Python  
 - **Data Processing:** Pandas, NumPy  
