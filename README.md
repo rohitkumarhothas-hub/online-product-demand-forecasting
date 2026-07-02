@@ -25,7 +25,7 @@ The system applies multiple regression algorithms and compares their performance
 
 ---
 
-## 🤖 Machine Learning Algorithms Used
+## Machine Learning Algorithms Used
 
 - Linear Regression  
 - Random Forest Regressor  
